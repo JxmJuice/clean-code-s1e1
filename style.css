@@ -43,7 +43,7 @@ font-family: Lato, sans-serif;
   margin: 0;
   padding: 0px;
 }
-.element {
+.list__element {
   list-style: none;
 }
 input,
@@ -99,7 +99,7 @@ input#new-task {
 }
 
 /* Task list */
-.element {
+.list__element {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -108,20 +108,20 @@ input#new-task {
   justify-content: space-between;
   align-items: center;
 }
-.element > * {
+.list__element > * {
   vertical-align: middle;
 }
 
-.element > input[type="checkbox"] {
+.list__element > input[type="checkbox"] {
   margin: 0 10px;
 }
-.element > label {
+.list__element > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.element > input[type="text"] {
+.list__element > input[type="text"] {
   width: 226px;
 }
 .btn.delete img {
@@ -140,15 +140,15 @@ input#new-task {
 }
 
 /* Edit Task */
-.list .element input[type="text"] {
+.list .list__element input[type="text"] {
   display: none;
 }
 
-.list .element.edit-mode input[type="text"] {
+.list .list__element.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.list .element.edit-mode label {
+.list .list__element.edit-mode label {
   display: none;
 }
