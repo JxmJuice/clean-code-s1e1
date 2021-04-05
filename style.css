@@ -34,7 +34,7 @@ font-family: Lato, sans-serif;
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-wrapper {
   display: flex;
@@ -121,7 +121,7 @@ input#new-task {
   width: 226px;
 }
 .element >    input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .btn.delete img {
   height: 2em;
@@ -134,18 +134,18 @@ input#new-task {
 
 /* Completed */
 .list#completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list .element input[type="text"] {
-  display: none
+  display: none;
 }
 
 .list .element.edit-mode input[type="text"] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list .element.edit-mode label {
