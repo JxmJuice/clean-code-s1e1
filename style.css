@@ -46,7 +46,8 @@ font-family: Lato, sans-serif;
 .element {
   list-style: none;
 }
-input, .btn{
+input,
+.btn{
   outline: none;
 }
 .btn {
@@ -120,7 +121,7 @@ input#new-task {
   font-size: 18px;
   width: 226px;
 }
-.element >    input[type="text"] {
+.element > input[type="text"] {
   width: 226px;
 }
 .btn.delete img {
